@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^index\.html$ / [NC,R,L]
+RewriteCond %{HTTP_HOST} !^(.*)\.lohaar\.in$ [NC] 
+RewriteRule ^(.*)$ http://www.lohaar.in/$1 [R=301,L]

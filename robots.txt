@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.lohaar.in/sitemap.xml
+
+# URL parameters blocking for SEO
+
+
+Disallow: /what-we-do.php
+Disallow: /loharfoundation.html
+Disallow: /Building-construction.html

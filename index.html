@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Lohaar Engineering and Construction Pvt. Ltd. | lohaar.in</title>
+	<meta name="description"
+		content="Lohaar Engineering and Construction Pvt Ltd, established in the year 2015. We continue to integrate developing milestones with facilitating world-class infrastructure and engendering incipient opportunities. Read more info at lohaar.in" />
+	<link rel="canonical" href="http://www.lohaar.in/" />
+	<meta name="keywords"
+		content="Modern Steel Construction in UP, Civil Construction in UP, Composite Construction in UP, Lohaar Engineering and Construction Pvt Ltd" />
+	<meta name="author" content="Lohaar Engineering and Construction Pvt Ltd">
+	<link rel="alternate" href="http://www.lohaar.in/" hreflang="en-us" />
+	<meta name="distribution" content="global">
+	<meta name="rating" content="general">
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="Daily">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="img/bg/logo.png" rel="icon">
+
+	<!--// Frameworks //-->
+	<link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="vendor/css/magnific.popup.min.css" />
+	<link rel="stylesheet" href="vendor/css/fancybox.min.css" />
+	<link rel="stylesheet" href="vendor/css/animate.min.css" />
+	<link rel="stylesheet" href="vendor/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="vendor/css/owl.carousel.default.min.css" />
+	<link rel="stylesheet" href="fonts/font_awesome/css/all.css" />
+	<link rel="stylesheet" href="fonts/flat_icons/flaticon.css" />
+	<!--// Style Css //-->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<style>
+		.appointment-area {
+			position: relative;
+			display: block;
+			background: #27282c;
+			background-position: top right;
+			background-attachment: scroll;
+			background-repeat: no-repeat;
+			background-size: auto;
+			padding-top: 110px;
+			padding-bottom: 110px;
+			z-index: 1;
+		}
+
+		.map-content-box .sec-title .title {
+			color: #ffffff;
+		}
+
+		.map-content-box .inner {
+			position: relative;
+			display: block;
+			max-width: 570px;
+			width: 100%;
+			margin: 0 auto;
+			z-index: 99;
+		}
+
+		.map-content-box .inner .overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.map-content-box .inner .overlay .single-location-box {
+			position: absolute;
+		}
+
+		.map-content-box .inner .overlay .single-location-box.one {
+			top: 60px;
+			left: 70px;
+		}
+
+		.map-content-box .inner .overlay .single-location-box.two {
+			top: 100px;
+			left: 50%;
+		}
+
+		.map-content-box .inner .overlay .single-location-box.three {
+			left: 150px;
+			bottom: 70px;
+		}
+
+		.map-content-box .inner .overlay .single-location-box.four {
+			right: 50px;
+			bottom: 60px;
+		}
+
+
+
+		.map-content-box .inner .overlay .marker-box {
+			display: inline-block;
+		}
+
+		.map-content-box .inner .overlay .marker-box span:before {
+			color: #ffffff;
+			font-size: 50px;
+			line-height: 50px;
+			cursor: pointer;
+		}
+
+		.map-content-box .inner .overlay .location-info {
+			position: absolute;
+			left: -10px;
+			bottom: 100px;
+			width: 270px;
+			opacity: 0;
+			visibility: hidden;
+			padding: 25px 30px 22px;
+			padding-right: 20px;
+			margin-left: 0;
+			border-radius: 0px;
+			background-color: #ffffff;
+			transition: all 0.3s ease;
+			z-index: 9999999999;
+		}
+
+		.map-content-box .inner .overlay .location-info:before {
+			position: absolute;
+			left: 30px;
+			bottom: -30px;
+			font-family: "Flaticon";
+			content: "\f103";
+			color: #ffffff;
+			font-size: 40px;
+			line-height: 40px;
+			transform: perspective(1200px) rotateY(180deg) translateZ(0px);
+		}
+
+
+		.map-content-box .inner .overlay .single-location-box:hover .location-info {
+			opacity: 1;
+			visibility: visible;
+			bottom: 90px;
+		}
+
+		.map-content-box .inner .overlay .single-location-box:hover .marker-box span:before {
+			color: #e9212e;
+			transition: all 500ms ease;
+		}
+
+		.map-content-box .inner .overlay .location-info h3 {
+			color: #27282c;
+			font-weight: 700;
+			margin: 0 0 13px;
+		}
+
+		.map-content-box .inner .overlay .location-info p {
+			margin: 0;
+		}
+
+
+		.appointment-box {
+			position: relative;
+			display: block;
+			padding: 44px 50px 50px;
+			max-width: 570px;
+			width: 100%;
+			background: #ffffff;
+		}
+
+		.appointment-box .title-box {
+			position: relative;
+			display: block;
+			padding-bottom: 22px;
+		}
+
+		.appointment-box .title-box h2 {
+			color: #27282c;
+			font-size: 24px;
+			line-height: 34px;
+			font-weight: 600;
+			margin: 0 0 10px;
+		}
+
+		.appointment-box .title-box span {}
+
+		.appointment {
+			position: relative;
+			display: block;
+		}
+
+		.appointment-form .single-box {
+			position: relative;
+			display: block;
+		}
+
+		.appointment-form input[type="text"],
+		.appointment-form input[type="email"],
+		.appointment-form textarea {
+			position: relative;
+			display: block;
+			padding: 0 20px;
+			border: 1px solid #ededed;
+			background: #ffffff;
+			color: #7c7e84;
+			font-size: 15px;
+			font-weight: 400;
+			width: 100%;
+			height: 60px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			transition: all 500ms ease;
+		}
+
+		.appointment-form input[type="text"]:focus {
+			border-color: #e9212e;
+		}
+
+		.appointment-form input[type="email"]:focus {
+			border-color: #e9212e;
+		}
+
+		.appointment-form .single-box button {
+			display: block;
+			width: 100%;
+			background: #e9212e;
+			color: #ffffff;
+			margin-top: 20px;
+			border-radius: 5px;
+		}
+
+		.appointment-form input::-webkit-input-placeholder {
+			color: #7c7e84;
+		}
+
+		.appointment-form input:-moz-placeholder {
+			color: #7c7e84;
+		}
+
+		.appointment-form input::-moz-placeholder {
+			color: #7c7e84;
+		}
+
+		.appointment-form input:-ms-input-placeholder {
+			color: #7c7e84;
+		}
+
+		.appointment-form .single-box .bootstrap-select {
+			position: relative;
+			display: block;
+		}
+
+		.appointment-form .single-box .bootstrap-select>.dropdown-toggle {
+			outline: none !important;
+			border-radius: 5px;
+			border: 1px solid #edf2f7;
+			height: 60px;
+			background-color: transparent;
+			padding: 0;
+			padding-left: 20px;
+			color: #83888d;
+			line-height: 60px;
+			margin: 0;
+			box-shadow: none !important;
+		}
+
+		.appointment-form .single-box .bootstrap-select>.dropdown-toggle::after {
+			position: absolute;
+			top: 50%;
+			right: 20px;
+			width: auto;
+			height: auto;
+			font-family: 'FontAwesome';
+			content: '\f107';
+			color: #83888d;
+			font-size: 18px;
+			transform: translateY(-50%);
+			margin: 0;
+			border: none;
+		}
+
+		.appointment-form .single-box .bootstrap-select .dropdown-menu {
+			margin: 0;
+			padding: 0;
+			border-radius: 0;
+			border: 0px solid #ddd;
+			background: #f9f9f9;
+			font-size: 16px;
+			color: #000000;
+		}
+
+		.appointment-form .single-box .dropdown-item {
+			display: block;
+			width: 100%;
+			padding: 9px 20px 9px;
+			font-weight: 400;
+			color: #222222;
+			text-align: inherit;
+			white-space: nowrap;
+			background-color: transparent;
+			border: 0;
+			border-radius: 0;
+			transition: all 500ms ease;
+		}
+
+		.appointment-form .single-box .dropdown-item.active,
+		.appointment-form .single-box .dropdown-item:active {
+			background: #e9212e;
+			color: #fff;
+		}
+
+		.appointment-form .single-box .dropdown-item:hover {
+			background: #e9212e;
+			color: #fff;
+		}
+
+		.header #navbar-top .nav-social-links a {
+			color: #fff;
+			margin-right: 15px;
+			padding-right: 15px;
+			font-size: 14px;
+			transition: transform .2s;
+			border-right: none;
+
+		}
+
+		.header #navbar-top .nav-social-links a:hover {
+			-ms-transform: scale(1.5);
+			-webkit-transform: scale(1.5);
+			transform: scale(1.5);
+			color: #f2ae33;
+
+		}
+
+		.header #navbar-top {
+			padding: 9px 0;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			background: #464544;
+		}
+
+		.container .navbar {
+			height: 60px;
+
+		}
+	</style>
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DBELFDK8RJ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-DBELFDK8RJ');
+	</script>
+</head>
+
+<body>
+	<!--// Page Wrapper Start //-->
+	<div class="page-wrapper">
+		<!--// Header Start //-->
+		<header class="header fixed-top" id="header">
+			<div id="navbar-top">
+				<!-- <div class="container">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md-4 nav-social-links" style="padding-right: 265px;">
+							<a href="https://www.facebook.com/Lohaarengineering/" class="f"><i class="fab fa-facebook-f"></i></a>
+						   <a href="https://www.instagram.com/lohaarengineering/" class="insta"><i class="fab fa-instagram"></i></a>
+						   <a href="https://www.linkedin.com/in/lohaar-engineering-and-construction-pvt-ltd-820971210/" class="link"><i class="fab fa-linkedin"></i></a>
+						   <a href="https://www.youtube.com/channel/UCUiTAfntRyKRWiFAvxRV8Zg" class="yt"><i class="fab fa-youtube"></i></a>
+					   </div>
+						<div class="col-lg-8 nav-info-wrap"></div>
+						
+					</div>
+				</div> -->
+				<div class="container">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-lg-8 nav-info-wrap"></div>
+						<div class="col-md-4 nav-social-links" style="padding-right: 42px; padding-top: 4px;"> <a
+								href="https://www.facebook.com/Lohaarengineering/"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/lohaarengineering/"><i class="fab fa-instagram"></i></a>
+							<a
+								href="https://www.linkedin.com/in/lohaar-engineering-and-construction-pvt-ltd-820971210/"><i
+									class="fab fa-linkedin"></i></a>
+							<a href="https://www.youtube.com/channel/UCUiTAfntRyKRWiFAvxRV8Zg"><i
+									class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="nav-menu-wrap">
+				<div class="container">
+					<nav class="navbar bg-white navbar-expand-lg p-0">
+
+						<a class="navbar-brand" href="index.html">
+							<img src="img/bg/logo_lohaar.png" alt="Best Pre-engineered Building Supplier in Rajasthan"
+								style=" width: 165.92px; height: 35px ;">
+						</a>
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fixedNavbar"
+							aria-controls="fixedNavbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+								class="togler-icon-inner">
+								<span class="line-1"></span>
+								<span class="line-2"></span>
+								<span class="line-3"></span>
+							</span>
+						</button>
+						<div class="collapse navbar-collapse main-menu justify-content-end" id="fixedNavbar">
+							<ul class="navbar-nav">
+								<li class="nav-item"> <a class="nav-link" href="index.html"> Home</a>
+								</li>
+								<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle"
+										href="what-we-do.html" id="pagesDropdownMenu" role="button"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										What We Do?
+									</a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownMenu"> <a
+											class="dropdown-item" href="modern-steel-construction.html">Modern Steel
+											Construction</a>
+										<a class="dropdown-item" href="civil-construction.html">Civil Construction</a>
+										<a class="dropdown-item" href="composite-construction.html">Composite
+											Construction</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+										id="pagesDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										Who we are?
+									</a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownMenu"> <a
+											class="dropdown-item" href="overview.html">Overview</a>
+										<a class="dropdown-item" href="board-director.html">Board of Directors</a>
+										<a class="dropdown-item" href="executive-team.html">Executive Team</a>
+										<a class="dropdown-item" href="capabilities.html"> Capabilities</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+										id="pagesDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										Project
+									</a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownMenu"> <a
+											class="dropdown-item" href="completed-projects.html">Completed Projects</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+										id="pagesDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										Media </a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownMenu"> <a
+											class="dropdown-item" href="press-releases.html">Press Releases</a>
+										<a class="dropdown-item" href="gallery.html">Gallery</a>
+										<a class="dropdown-item" href="blogs.html">Blogs</a>
+										<a class="dropdown-item" href="testimonial.html">Testimonials</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+										id="pagesDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">CSR </a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownMenu"> <a
+											class="dropdown-item" href="csr.html">Lohaar foundation</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="career.html"
+										id="pagesDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+										Career
+									</a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownMenu"> <a
+											class="dropdown-item" href="career-current-openings.html">Current
+											Openings</a>
+										<a class="dropdown-item" href="career-submit-cv.html">Submit your C.V</a>
+										<a class="dropdown-item" href="career-design-partner.html">Being a design
+											partner and consultant</a>
+										<a class="dropdown-item" href="career-certified-builder.html">Being a certified
+											builder</a>
+										<a class="dropdown-item" href="career-supplier-registration.html">Supplier
+											registration</a>
+									</div>
+								</li>
+								<li class="nav-item"> <a class="nav-link" href="contact-us.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--// Header End  //-->
+		<!--// Hero Slider Start //-->
+
+		<section id="hero-slider-two" data-scroll-index="0">
+			<div class="owl-carousel owl-theme hero-slider" id="heroCarousel">
+
+				<div class="container-fluid" style="
+				    
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+					margin-top: 105px;
+				">
+					<!-- Slider main container -->
+					<div class="swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide"><img src="./img/1.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/2.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/3.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/4.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/5.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/6.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/7.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/8.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/9.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/10.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/11.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/12.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/13.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/14.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/15.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/16.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/17.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/18.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/19.jpg" class="img-fluid"></div>
+							<div class="swiper-slide"><img src="./img/20.jpg" class="img-fluid"></div>
+
+
+						</div>
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+
+
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+		</section>
+
+
+		<!--// About Section Start //-->
+		<section class="section" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6" style="padding-right: 0px;     padding-left: 0px;">
+						<div class="about-img-wrap why-choose-us-img accordion-item"
+							style="margin-top: 69px;    margin-bottom: 10px;    padding: 8px;">
+							<img src="img/bg/ab1.jpg" alt="Top 10 Steel Structure Maker Company in Uttarakhand"
+								class="img-fluid" style="">
+						</div>
+					</div>
+					<div class="col-lg-6 about-inner">
+						<div class="about-text">
+							<h4 style="color: #ffffff;">About The company</h4>
+							<p style="color: white;">Lohaar Engineering and Construction Pvt. Ltd. is pioneer in India’s
+								engineering and construction industry, having executed landmark projects that have
+								defined the company as well as country’s progress since 1994. Maintaining our legacy of
+								innovation in engineering and construction, we perpetuate to integrate incipient
+								milestones with every passing year, building world-class infrastructure and engendering
+								incipient opportunities for peoples form different sectors by majorly dealing with the
+								Modern Steel Construction,Project orchestrating,Construction, Civil
+								Construction,Composite Project Designing, Project management, Quality, Health, Safety
+								and</p>
+							<br>
+						</div>
+					</div>
+					<div class="col-lg-12 about-inner about-img-wrap ">
+						<div class="about-text" style="margin-left: -29px;">
+							<p style="color: white;">Environmental Management. After consummating 18 years of prosperous
+								vocation in Design and Development of sundry Industrial, Commercial, Residential and
+								Public Projects, Lohaar has been kenned as a reliable Designer, Engineer, Manufacturer
+								and Builder in the Design, Engineering and construction industry of India.</p>
+							<a href="http://www.lohaar.in/overview.html" class="primary-button">Read More<i
+									class="fa fa-arrow-right"></i></a><a style="margin-left:15px"
+								href="img/LOHAAR PROFILE.pdf" target="_blank" class="primary-button">Download Profile<i
+									class="fa fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--// About Section End //-->
+		<!--// Services Section Start //-->
+		<section class="section pb-minus-70 bg-primary-light" style="background-color: #484b5047; ">
+			<div class="container">
+				<div class="row" style="margin-top: 93px;">
+					<div class="col-lg-4 col-md-6">
+						<div class="services-item" style="padding: 8px 10px; height: 520px;">
+							<div class="icon">
+								<img src="img/bg/vision1.png" alt="Top 10 Steel Structure Maker Company in Rajasthan"
+									class="img-fluid" style="height: 92px;" />
+							</div>
+							<div class="body" style="margin-top: -34px;">
+								<h6 style=" padding-top: 34px;">Vision</h6>
+								<p style="font-size: 14px;
+    font-weight: 500;margin-bottom: 0px;"> <i class="fa fa-share mr-2"></i> We view the future of Indian buildings and
+									infrastructure with steel because it is a multifarious material having a prodigious
+									composition of qualities for the building construction and infrastructure
+									development.</p>
+								<p style="font-size: 14px;
+    font-weight: 500; margin-bottom: 0px;margin-top: 15px;">
+									<i class="fa fa-share mr-2"></i> We have been working on lots of projects by
+									utilizing sustainable materials like steel and other with innovative construction
+									technologies i.e. pre- fabricated construction and composite construction and so
+									other.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="services-item" style="padding: 8px 10px;">
+							<div class="icon">
+								<img src="img/bg/mission1.png" alt="Top Metal Steel Building Manufacturer in Haryana"
+									class="img-fluid" style="height: 92px;" />
+							</div>
+							<div class="body" style="margin-top: -34px;">
+								<h6 style=" padding-top: 34px;">Mission</h6>
+								<p style="font-size: 14px;
+    font-weight: 500; margin-bottom: 0px;"> <i class="fa fa-share mr-2"></i> Continually innovate, develop and adopt
+									state-of-the-art technologies,methodologies and materials to distribute customer
+									contentment through preponderant, more expeditious and more frugal construction
+									accommodations and withal to build a reputation of trust and reliability amongst our
+									customers, other stakeholders and society.</p>
+								<p style="font-size: 14px;
+    font-weight: 500; margin-bottom: 0px;"> <i class="fa fa-share mr-2"></i> To be a globally admired organization that
+									enhances the quality of life of all stakeholders through economic, safe and
+									sustainable development.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="services-item" style="padding: 8px 10px;">
+							<div class="icon">
+								<img src="img/bg/values.png"
+									alt="Top Metal Steel Building Manufacturer in Uttar Pradesh" class="img-fluid"
+									style="height: 92px;" />
+							</div>
+							<div class="body" style="margin-top: -34px;">
+								<h6 style=" padding-top: 34px;">Why Choose Lohaar</h6>
+								<p style="font-size: 14px;
+    font-weight: 500; margin-bottom: 0px;"> <i class="fa fa-share mr-2"></i> We practice sustainability to safeguard
+									our environment and maintain the highest levels of professionalism, honesty and
+									trust in our relationship with clients, employees and affiliates.</p>
+								<p style="font-size: 14px;
+    font-weight: 500; margin-bottom: 0px;"> <i class="fa fa-share mr-2"></i> Project complexity in of any aspect
+									doesn’t bother us as we are authentic Lohaar that give us potential to achieve every
+									critical task even we have rich particle experiences with steel and composite
+									construction that results we look at steel and other material having different
+									vision to build landmarks.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section" id="whyChooseUs" style="background-color: #333231;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6" style="">
+						<div class="about-img-wrap why-choose-us-img accordion-item"
+							style="margin-top: 42px;    margin-bottom: 69px;   border: #ffffff 8px solid;">
+							<img src="img/bg/WHAT WE DO-1.jpeg" alt="Top Metal Steel Building Manufacturer in Delhi NCR"
+								class="img-fluid" style="">
+						</div>
+					</div>
+					<div class="col-lg-6 about-inner">
+						<div class="about-text">
+							<h4 style="color: #ffffff;">What We Do?</h4>
+							<p style="color: white;">With the frenetic transmutation in the society and an urge to
+								merely survive but win in a rialto are the business philosophy of Lohaar. As we all Ken,
+								commencement of an incipient project has been highly challenging due to less innovative
+								materials, Construction technologies for Construction Companies.</p>
+							<p style="color: white;">Businessmen, Industrialists and Owners had to suffer in many
+								aspects of the sundry stages till the project is not consummated and all these troubles
+								has been notified by our progenitor since 1994 so, determinately in 2015 he composed a
+								solution company Lohaar engineering and construction Pvt. Ltd. to give relaxations to
+								the businessmen especially in aspects of Design, Construction and Execution of their
+								different dream projects.</p>
+							<p style="color: white;">After consummating 18 years of prosperous vocation in Design and
+								Development of sundry Industrial, Commercial, Residential and Public Projects, Lohaar is
+								acclaimed as a reliable Designer,</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6" style="">
+						<div class="about-img-wrap why-choose-us-img accordion-item" style="background-color: #333231;">
+							<p style="color: white; ">Engineer, Manufacturer and Builder in the Design, Engineering
+								andconstruction industry of India. It is the only Uttarakhand predicated company which
+								deliver its accommodations and products throughout India to its prestigious clients
+								following the concept of Design to build, especially by utilizing steel.</p>
+							<br>
+							<p style="color: white;">Lohaar follows this concept just because it makes it convenient for
+								the clients to coordinate only with one company and it is withal proven by our clients
+								that the deals made with Lohaar following this concept were very benign in aspect of
+								Design, Material, Construction, Fabrication, Erection, Quality, Time, Financial
+								Management and Execution of project.</p>
+						</div>
+					</div>
+					<div class="col-lg-6 about-inner">
+						<div class="about-text">
+							<img src="img/2.jpeg" alt="Top Metal Steel Building Manufacturer in Uttarakhand"
+								class="img-fluid" style="border: #ffffff 8px solid;">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section" id="latestBlog" style="background-color: #cccdce;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="item">
+							<div class="blog-item">
+								<div class="img">
+									<img src="img/bg/7.jpeg" alt="Top Metal Steel Building Manufacturer in Rajasthan"
+										class="img-fluid" / style="height: 336px;">
+								</div>
+								<div class="body">
+									<h6>Modern Steel Construction</h6>
+									<p>These days Steel is one of the most widely used building material in construction
+										throughout the world just because of its multifariousness, durability, design
+										flexibility and recyclability these many benefits contribute to steel being a
+										very affordable option for construction projects.</p> <a
+										href="http://www.lohaar.in/modern-steel-construction.html"
+										class="primary-button">Read More <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item">
+							<div class="blog-item">
+								<div class="img">
+									<img src="img/bg/10.jpg" alt="Top 10 Warehouse Manufacturer in Haryana"
+										class="img-fluid" / style="height: 336px;">
+								</div>
+								<div class="body">
+									<h6>Civil Construction</h6>
+									<p>Civil construction is the oldest disciplines of engineering. Since the very
+										beginning of the human subsistence, it has been the aspect of life and it falls
+										in to the category of civil engineering which is all about designing,
+										constructing and maintaining the physical and naturally built environment.</p>
+									<a href="http://www.lohaar.in/civil-construction.html" class="primary-button">Read
+										More<i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item">
+							<div class="blog-item">
+								<div class="img">
+									<img src="img/bg/3.jpeg" alt="Top 10 Warehouse Manufacturer in Uttar Pradesh"
+										class="img-fluid" / style="height: 336px;">
+								</div>
+								<div class="body">
+									<h6>Composite Construction</h6>
+									<p>Composite construction dominates the non-residential multi-storey building
+										sector. This has been the case for over twenty years. The reason why composite
+										construction is often so good can be expressed in one simple way - concrete is
+										good in compression and steel is good in tension.</p> <a
+										href="http://www.lohaar.in/composite-construction.html"
+										class="primary-button">Read More<i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section bg-dark-blue pb-minus-70" id="workProcess">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="work-process-inner">
+							<div class="work-process-text">
+								<h4>Our Capabilities</h4>
+								<p>After consummating 18 years of prosperous vocation in Design and Development of
+									sundry Industrial, Commercial, Residential and Public Projects, Lohaar has been
+									kenned as a reliable Designer, Engineer, Manufacturer and Builder in the Design,
+									Engineering and construction industry of India. It is the only Uttarakhand
+									predicated company which distributes its accommodations and products throughout
+									India to its prestigious clients following the concept of Design to build,
+									especially by utilizing steel.Lohaar follows this concept just because it makes it
+									convenient for the clients to coordinate only with one company and it is withal
+									proven by our clients that the deals made with Lohaar following this concept were
+									very benign in aspect of Design, Material,Construction, Fabrication, Erection,
+									Quality, Time, Financial Management and Execution of</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6" style="padding-right: 15px;     padding-left: 15px;">
+						<div class="about-img-wrap why-choose-us-img accordion-item" style="    margin-top: 70px;
+    margin-bottom: 42px;
+    padding: 8px;
+">
+							<img src="img/1.jpeg" alt="Top 10 Warehouse Manufacturer in Delhi NCR" class="img-fluid"
+								style="    margin-top: 0px;    border-radius: 7px;">
+						</div>
+					</div>
+					<div class="col-lg-12" style="margin-top: -31px;">
+						<div class="work-process-inner">
+							<div class="work-process-text">
+								<p>project. At present we are providing constructional facilities, accommodations of
+									Modern Steel Construction, Civil Construction and Composite Construction for
+									different projects in distinct sectors by ascertaining that we are capable of doing
+									any kind of projects cognate to our field because we are backboned by our these
+									qualities.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section" id="ourTeam" style="margin-top: -110px; background-color: #c9cacb;">
+			<div class="container">
+				<div class="row">
+					<div class="owl-theme owl-carousel" id="teamCarousel">
+						<div class="item">
+							<div class="team-card">
+								<div class="image">
+									<img src="img/bg/PROJECT PLANNING.JPG"
+										alt="Top 10 Warehouse Manufacturer in Uttarakhand" class="img-fluid" /
+										style="height: 360px;">
+								</div>
+								<div class="body">
+									<h6>Project planning and Designing</h6>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-card">
+								<div class="image">
+									<img src="img/bg/PROJECT MANAGEMENT.JPG"
+										alt="Top 10 Warehouse Manufacturer in Rajasthan" class="img-fluid"
+										style="height: 360px;" />
+								</div>
+								<div class="body">
+									<h6>Project management</h6>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-card">
+								<div class="image">
+									<img src="img/bg/QUALITY CONTROL, HELTH AND SAFTEY.jpeg"
+										alt="Best Godown Manufacturer in Haryana" class="img-fluid"
+										style="height: 360px;" />
+								</div>
+								<div class="body">
+									<h6>Quality control, Health and Safety Management etc.</h6>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-card">
+								<div class="image">
+									<img src="img/bg/FABRICATION AND CONSTRUCTION.jpeg"
+										alt="Best Godown Manufacturer in Uttar Pradesh" class="img-fluid"
+										style="height: 360px;" />
+								</div>
+								<div class="body">
+									<h6>Project fabrication and construction</h6>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-card">
+								<div class="image">
+									<img src="img/bg/PROJECT COMPLETION.jpg" alt="Best Godown Manufacturer in Delhi NCR"
+										class="img-fluid" style="height: 360px;" />
+								</div>
+								<div class="body">
+									<h6>Project completion</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section padding-minus-10" id="blogSingleSection" style="background-color: #464544;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6">
+						<div class="section-heading">
+							<h3 class="section-title" style="color: white;">Press <span>Release</span></h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12  accordion-item" style="background-color: #464544;">
+						<div class="blog-post-single">
+							<div class="blog-text">
+								<div class="comments-wrap">
+									<div class="comment-item media accordion-item" style="padding: 15px;">
+										<img src="img/blog/comment-img-1.jpg"
+											alt="Best Godown Manufacturer in Uttarakhand" class="img-fluid" style="
+    height: 238px;
+    width: 300px;
+	    border: #464544 5px solid;
+    padding: 8px;
+
+">
+										<div class="comment-item-body">
+											<h6 class="comment-item-title"><i class="fa fa-reply mr-2"></i>Press Release
+											</h6>
+											<p>Today Lohaar has won the district volleyball industrial league, final
+												match was played between the Lohaar engineering and Flexituff
+												international. This league was Inaugurated and executed by the
+												Uttarakhand police.</p>
+											<div class="comment-meta"> <span><i class="far fa-calendar-alt"></i>12 JUL
+													2016</span>
+											</div>
+										</div>
+									</div>
+									<div class="comment-item media accordion-item" style="padding: 15px;">
+										<img src="img/blog/comment-img-2.jpg"
+											alt="Best Godown Manufacturer in Rajasthan" class="img-fluid" style="
+    height: 238px;
+    width: 300px;
+	 border: #464544 5px solid;
+    padding: 8px;
+">
+										<div class="comment-item-body">
+											<h6 class="comment-item-title"><i class="fa fa-reply mr-2"></i>Press Release
+											</h6>
+											<p>Lohaar has exhibited in India Warehousing Show 2018 and got excellent
+												replications from the visitor’s side by introducing them company working
+												criteria's, philosophies including designing to the consummate execution
+												of different projects from building and construction industry.</p>
+											<div class="comment-meta"> <span><i class="far fa-calendar-alt"></i>30 JUL
+													2017</span>
+											</div>
+										</div>
+									</div>
+									<div class="comment-item media accordion-item" style="padding: 15px;">
+										<img src="img/blog/comment-img-3.jpeg" alt="Top 10 Peb Company in Haryana"
+											class="img-fluid" style="
+    height: 238px;
+    width: 300px;
+	 border: #464544 5px solid;
+    padding: 8px;
+">
+										<div class="comment-item-body">
+											<h6 class="comment-item-title"><i class="fa fa-reply mr-2"></i>Press Release
+											</h6>
+											<p>Today Lohaar Managing Director Mr. Sadab Lohaar has been rewarded by the
+												excellent businessmen of the state award, program convener was Sadhna
+												plus News Chanel and it is inaugurated by the Hon'ble Mla Kashipur, Mla
+												Nanital and Mayor Kashipur and sundry venerated popular icon were
+												present in the award function.</p>
+											<div class="comment-meta"> <span><i class="far fa-calendar-alt"></i>18 JAN
+													2020</span>
+											</div>
+										</div>
+									</div> <a href="http://www.lohaar.in/press-releases.html"
+										class="primary-button">Read More<i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section pb-minus-70" style="background-color: #c9cacb;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6">
+						<div class="section-heading">
+							<h3 class="section-title">Media<span>Gallery</span></h3>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="galleryGrid" style="position: relative; height: 1140px;">
+					<div class="col-md-6 col-lg-3 gallery-item building"
+						style="position: absolute; left: 0%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q1.jpg">
+									<img src="img/portfolio/q1.jpg" alt="Top 10 Peb Company in Uttar Pradesh"
+										class="img-fluid" style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 33.3333%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q2.jpg">
+									<img src="img/portfolio/q2.jpg" alt="Top 10 Peb Company in Delhi NCR"
+										class="img-fluid" style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 66.6667%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q3.jpg">
+									<img src="img/portfolio/q3.jpg" alt="Top 10 Peb Company in Uttarakhand"
+										class="img-fluid" style="height:200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 66.6667%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q4.jpg">
+									<img src="img/portfolio/q4.jpg" alt="Top 10 Peb Company in Rajasthan"
+										class="img-fluid" style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 66.6667%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q5.jpg">
+									<img src="img/portfolio/q5.jpg"
+										alt="Best Pre-engineered Building Supplier in Haryana" class="img-fluid" style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 66.6667%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q6.jpg">
+									<img src="img/portfolio/q6.jpg"
+										alt="Best Pre-engineered Building Supplier in Uttar Pradesh" class="img-fluid"
+										style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 66.6667%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q7.jpg">
+									<img src="img/portfolio/q7.jpg"
+										alt="Best Pre-engineered Building Supplier in Delhi NCR" class="img-fluid"
+										style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 gallery-item construction"
+						style="position: absolute; left: 66.6667%; top: 0px;">
+						<div class="gallery-item-inner">
+							<div class="gallery-item-img">
+								<a data-fancybox="grid-gallery" href="img/portfolio/q8.jpg">
+									<img src="img/portfolio/q8.jpg"
+										alt="Best Pre-engineered Building Supplier in Uttarakhand" class="img-fluid"
+										style="height: 200px;
+    width: 100%;">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div> <a href="http://www.lohaar.in/gallery.html" class="primary-button">View More<i
+						class="fa fa-arrow-right"></i></a>
+			</div>
+		</section>
+		<!--// Latest Blog Section End //-->
+		<!--// Footer Start //-->
+		<footer id="footer">
+			<div id="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-6">
+							<div class="footer-widget">
+								<h5>Contact Info </h5>
+								<ul class="footer-contact-info">
+									<li> <i class="fa fa-map-marker"></i>
+										<span> Plant & Registered Office : Plote No .4 ,IDEB Industrial Estate</span>
+										<br><span style="margin-left: 25px;"> Mahuakhera Ganj Kashipur -244713 ,
+											Uttarakhand</span>
+									</li>
+									<li> <i class="fa fa-map-marker"></i>
+										<span> Corp. Office : 1134, 11 th Floor Gaur city mall, Sector 4C,Greater
+										</span>
+										<br><span style="margin-left: 25px;"> Noida West-201009, Uttar Pradesh</span>
+									</li>
+									<li> <i class="fa fa-map-marker"></i>
+										<span> Branch. Office : 1st Floor B-64,Sector-B, Main Kapurthala Road </span>
+										<br><span style="margin-left: 25px;"> Aliganj, Lucknow-226020 , Uttar
+											Pradesh</span>
+									</li>
+									<li> <i class="fa fa-envelope"></i>
+										<a href="mailto:anaulaoffice@gmail.com"> <span>Email : info@lohaar.in</span>
+										</a>
+									</li>
+									<li>
+										<i class="fa fa-phone"></i>
+										<span>Mobile : +91-9690-322-221 , Tel : 05947 226121
+											<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											HR Department : +91 7464922221</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6 contact-form-wrap">
+							<div class="footer-widget">
+								<h5> we are here to help you</h5>
+								<div class="contact-form" style="margin-top: 25px;">
+									<form id="" method="post" action="email.php">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="contact-form-control" name="contact_name"
+														placeholder="Your Name *" required> <i
+														class="fa fa-envelope"></i>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="contact-form-control" name="contact_email"
+														placeholder="Your E-Mail *" required> <i
+														class="fa fa-envelope"></i>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="contact-form-control" name="contact_phone"
+														placeholder="Your Phone *" required> <i class="fa fa-phone"></i>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="captcha-input contact-form-control"
+														name="contact_question" id="contactFormCaptchaInput"
+														placeholder="Please Enter Code *" autocomplete="off"> <span
+														id="contactFormCaptchaSpan" style="position: absolute;
+    top: 0;
+    height: 60px;
+    display: block;
+    width: 70px;
+    text-align: center;
+    line-height: 43px;
+    background: #464544;
+    color: #fff;
+    font-weight: 500;
+	border-radius: 0px 0 0 2px;
+   ">47137</span>
+													<input type="hidden" id="contactFormCaptchaVal" value="47137">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<select name="contact_subject" class="contact-form-control"
+														id="contactSubject">
+														<option value="">Please Select</option>
+														<option value="Career">Career</option>
+														<option value="Get Proposal">Get Proposal</option>
+														<option value="Customer Support">Customer Support</option>
+													</select> <i class="far fa-bookmark"></i>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea class="contact-form-control" name="contact_message"
+														cols="30" rows="9" placeholder="Your Message *"
+														autocomplete="off"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<button type="submit" name="submit" style="background: #bdb2b2;"
+													class="primary-button border-none">Send Message</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="footer-column col-xl-12 col-lg-12 col-md-12 col-sm-12">
+							<marquee behaviour="scroll" direstion="left" onmouseover="this.stop();"
+								onmouseout="this.start();">
+								<div class="marquee-text" style="color:#fff;">
+									<hr class="line ">
+									<a href="http://www.lohaar.in/construction-haryana.html" class="network"
+										style="color:#D2CDC8">Top Construction Company in Haryana</a> |
+									<a href="http://www.lohaar.in/construction-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Top Construction Company in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/construction-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Top Construction Company in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/construction-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Top Construction Company in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/construction-rajasthan.html" class="network"
+										style="color:#D2CDC8">Top Construction Company in Rajasthan</a> |
+									<a href="http://www.lohaar.in/steel-structure-maker-haryana.html" class="network"
+										style="color:#D2CDC8">Steel Structure Maker in Haryana</a> |
+									<a href="http://www.lohaar.in/steel-structure-maker-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Steel Structure Maker in Uttar Pradesh</a>
+									|
+									<a href="http://www.lohaar.in/steel-structure-maker-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Steel Structure Maker in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/steel-structure-maker-uttarakhand.html"
+										class="network" style="color:#D2CDC8">Steel Structure Maker in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/steel-structure-maker-rajasthan.html" class="network"
+										style="color:#D2CDC8">Steel Structure Maker in Rajasthan</a> |
+									<a href="http://www.lohaar.in/steel-building-haryana.html" class="network"
+										style="color:#D2CDC8">Steel Building Manufacturer in Haryana</a> |
+									<a href="http://www.lohaar.in/steel-building-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Steel Building Manufacturer in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/steel-building-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Steel Building Manufacturer in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/steel-building-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Steel Building Manufacturer in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/steel-building-rajasthan.html" class="network"
+										style="color:#D2CDC8">Steel Building Manufacturer in Rajasthan</a> |
+									<a href="http://www.lohaar.in/warehouse-haryana.html" class="network"
+										style="color:#D2CDC8">Warehouse Manufacturer in Haryana</a> |
+									<a href="http://www.lohaar.in/warehouse-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Warehouse Manufacturer in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/warehouse-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Warehouse Manufacturer in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/warehouse-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Warehouse Manufacturer in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/warehouse-rajasthan.html" class="network"
+										style="color:#D2CDC8">Warehouse Manufacturer in Rajasthan</a> |
+									<a href="http://www.lohaar.in/godown-haryana.html" class="network"
+										style="color:#D2CDC8">Godown Manufacturer in Haryana</a> |
+									<a href="http://www.lohaar.in/godown-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Godown Manufacturer in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/godown-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Godown Manufacturer in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/godown-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Godown Manufacturer in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/godown-rajasthan.html" class="network"
+										style="color:#D2CDC8">Godown Manufacturer in Rajasthan</a> |
+									<a href="http://www.lohaar.in/peb-haryana.html" class="network"
+										style="color:#D2CDC8">Peb Company in Haryana</a> |
+									<a href="http://www.lohaar.in/peb-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Peb Company in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/peb-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Peb Company in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/peb-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Peb Company in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/peb-rajasthan.html" class="network"
+										style="color:#D2CDC8">Peb Company in Rajasthan</a> |
+									<a href="http://www.lohaar.in/civil-work-contractor-haryana.html" class="network"
+										style="color:#D2CDC8">Civil Work Contractor in Haryana</a> |
+									<a href="http://www.lohaar.in/civil-work-contractor-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Civil Work Contractor in Uttar Pradesh</a>
+									|
+									<a href="http://www.lohaar.in/civil-work-contractor-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Civil Work Contractor in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/civil-work-contractor-uttarakhand.html"
+										class="network" style="color:#D2CDC8">Civil Work Contractor in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/civil-work-contractor-rajasthan.html" class="network"
+										style="color:#D2CDC8">Civil Work Contractor in Rajasthan</a> |
+									<a href="http://www.lohaar.in/industrial-architect-haryana.html" class="network"
+										style="color:#D2CDC8">Industrial Architect in Haryana</a> |
+									<a href="http://www.lohaar.in/industrial-architect-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Industrial Architect in Uttar Pradesh</a>
+									|
+									<a href="http://www.lohaar.in/industrial-architect-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Industrial Architect in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/industrial-architect-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Industrial Architect in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/industrial-architect-rajasthan.html" class="network"
+										style="color:#D2CDC8">Industrial Architect in Rajasthan</a> |
+									<a href="http://www.lohaar.in/building-construction-haryana.html" class="network"
+										style="color:#D2CDC8">Building Construction Company in Haryana</a> |
+									<a href="http://www.lohaar.in/building-construction-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Building Construction Company in Uttar
+										Pradesh</a> |
+									<a href="http://www.lohaar.in/building-construction-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Building Construction Company in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/building-construction-uttarakhand.html"
+										class="network" style="color:#D2CDC8">Building Construction Company in
+										Uttarakhand</a> |
+									<a href="http://www.lohaar.in/building-construction-rajasthan.html" class="network"
+										style="color:#D2CDC8">Building Construction Company in Rajasthan</a> |
+									<a href="http://www.lohaar.in/tin-shed-haryana.html" class="network"
+										style="color:#D2CDC8">Tin Shed Manufacturer in Haryana</a> |
+									<a href="http://www.lohaar.in/tin-shed-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Tin Shed Manufacturer in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/tin-shed-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Tin Shed Manufacturer in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/tin-shed-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Tin Shed Manufacturer in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/tin-shed-rajasthan.html" class="network"
+										style="color:#D2CDC8">Tin Shed Manufacturer in Rajasthan</a> |
+									<a href="http://www.lohaar.in/prefabricated-steel-buildings-haryana.html"
+										class="network" style="color:#D2CDC8">Prefabricated Steel Buildings in
+										Haryana</a> |
+									<a href="http://www.lohaar.in/prefabricated-steel-buildings-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Prefabricated Steel Buildings in Uttar
+										Pradesh</a> |
+									<a href="http://www.lohaar.in/prefabricated-steel-buildings-delhi-ncr.html"
+										class="network" style="color:#D2CDC8">Prefabricated Steel Buildings in Delhi
+										NCR</a> |
+									<a href="http://www.lohaar.in/prefabricated-steel-buildings-uttarakhand.html"
+										class="network" style="color:#D2CDC8">Prefabricated Steel Buildings in
+										Uttarakhand</a> |
+									<a href="http://www.lohaar.in/prefabricated-steel-buildings-rajasthan.html"
+										class="network" style="color:#D2CDC8">Prefabricated Steel Buildings in
+										Rajasthan</a> |
+									<a href="http://www.lohaar.in/metal-building-haryana.html" class="network"
+										style="color:#D2CDC8">Metal Building Manufacturer in Haryana</a> |
+									<a href="http://www.lohaar.in/metal-building-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Metal Building Manufacturer in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/metal-building-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Metal Building Manufacturer in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/metal-building-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Metal Building Manufacturer in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/metal-building-rajasthan.html" class="network"
+										style="color:#D2CDC8">Metal Building Manufacturer in Rajasthan</a> |
+									<a href="http://www.lohaar.in/builder-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Top Builder In Uttarakhand</a> |
+									<a href="http://www.lohaar.in/building-contractor-near-me.html" class="network"
+										style="color:#D2CDC8">Building Contractor Near Me</a> |
+									<a href="http://www.lohaar.in/turnkey-construction-haryana.html" class="network"
+										style="color:#D2CDC8">Turnkey Construction Company in Haryana</a> |
+									<a href="http://www.lohaar.in/turnkey-construction-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Turnkey Construction Company in Uttar
+										Pradesh</a> |
+									<a href="http://www.lohaar.in/turnkey-construction-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Turnkey Construction Company in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/turnkey-construction-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Turnkey Construction Company in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/turnkey-construction-rajasthan.html" class="network"
+										style="color:#D2CDC8">Turnkey Construction Company in Rajasthan</a> |
+									<a href="http://www.lohaar.in/lgfs-building-haryana.html" class="network"
+										style="color:#D2CDC8">LGFS Building Company in Haryana</a> |
+									<a href="http://www.lohaar.in/lgfs-building-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">LGFS Building Company in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/lgfs-building-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">LGFS Building Company in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/lgfs-building-uttarakhand.html" class="network"
+										style="color:#D2CDC8">LGFS Building Company in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/lgfs-building-rajasthan.html" class="network"
+										style="color:#D2CDC8">LGFS Building Company in Rajasthan</a> |
+									<a href="http://www.lohaar.in/shed-haryana.html" class="network"
+										style="color:#D2CDC8">Shed Manufacturer in Haryana</a> |
+									<a href="http://www.lohaar.in/shed-uttar-pradesh.html" class="network"
+										style="color:#D2CDC8">Shed Manufacturer in Uttar Pradesh</a> |
+									<a href="http://www.lohaar.in/shed-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Shed Manufacturer in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/shed-uttarakhand.html" class="network"
+										style="color:#D2CDC8">Shed Manufacturer in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/shed-rajasthan.html" class="network"
+										style="color:#D2CDC8">Shed Manufacturer in Rajasthan</a> |
+									<a href="http://www.lohaar.in/industrial-consultant-haryana.html" class="network"
+										style="color:#D2CDC8">Industrial Consultant in Haryana</a> |
+									<a href="http://www.lohaar.in/industrial-consultant-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Industrial Consultant in Uttar Pradesh</a>
+									|
+									<a href="http://www.lohaar.in/industrial-consultant-delhi-ncr.html" class="network"
+										style="color:#D2CDC8">Industrial Consultant in Delhi NCR</a> |
+									<a href="http://www.lohaar.in/industrial-consultant-uttarakhand.html"
+										class="network" style="color:#D2CDC8">Industrial Consultant in Uttarakhand</a> |
+									<a href="http://www.lohaar.in/industrial-consultant-rajasthan.html" class="network"
+										style="color:#D2CDC8">Industrial Consultant in Rajasthan</a> |
+									<a href="http://www.lohaar.in/multi-storey-steel-building-haryana.html"
+										class="network" style="color:#D2CDC8">Multi Storey Steel Building in Haryana</a>
+									|
+									<a href="http://www.lohaar.in/multi-storey-steel-building-uttar-pradesh.html"
+										class="network" style="color:#D2CDC8">Multi Storey Steel Building in Uttar
+										Pradesh</a> |
+									<a href="http://www.lohaar.in/multi-storey-steel-building-delhi-ncr.html"
+										class="network" style="color:#D2CDC8">Multi Storey Steel Building in Delhi
+										NCR</a> |
+									<a href="http://www.lohaar.in/multi-storey-steel-building-uttarakhand.html"
+										class="network" style="color:#D2CDC8">Multi Storey Steel Building in
+										Uttarakhand</a> |
+									<a href="http://www.lohaar.in/multi-storey-steel-building-rajasthan.html"
+										class="network" style="color:#D2CDC8">Multi Storey Steel Building in
+										Rajasthan</a>
+								</div>
+							</marquee>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// #footer-top //-->
+			<div id="copyright">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<p class="copyright-text">
+								&copy; 2021 <a href="http://www.lohaar.in/" style="color:#D2CDC8"><b>Lohaar</b></a>. All
+								Right Reserved
+							</p>
+						</div>
+						<div class="col-md-6">
+							<div class="footer-social-link">
+								<div style="text-align:center;    margin-right: 28px; color: antiquewhite;">Hit Count
+									<script type="text/javascript"
+										src="https://services.webestools.com/cpt_visitors/71544-12-1.js"></script>
+								</div> <a href="https://www.webestools.com/" style="display:block;text-align:center;"
+									title="Tools services webmasters counters generators scripts tutorials free"></a>
+
+								<ul>
+									<li>
+										<a href="https://www.facebook.com/Lohaarengineering/"> <i
+												class="fab fa-facebook-f"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/lohaarengineering/"> <i
+												class="fab fa-instagram"></i>
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://www.linkedin.com/in/lohaar-engineering-and-construction-pvt-ltd-820971210/">
+											<i class="fab fa-linkedin"></i>
+										</a>
+									</li>
+									<li> <a href="https://www.youtube.com/channel/UCUiTAfntRyKRWiFAvxRV8Zg"><i
+												class="fab fa-youtube"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// #copyright //-->
+		</footer>
+		<!--// Footer End //-->
+	</div>
+	<!--// Page Wrapper End //--> <a href="#" class="scroll-top-btn" data-scroll-goto="0"><i
+			class="fa fa-chevron-up"></i></a>
+	<!--// .scroll-top-btn //-->
+	<div id="preloader-wrap">
+		<div class="preloader-inner">
+			<div class="lds-ring">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<!--// #preloader-wrap //-->
+	<div class="modal fade custom-modal" tabindex="-1" id="headerSearchBar" role="dialog"
+		aria-labelledby="headerSearchBar" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header align-items-center">
+					<h5 class="modal-title" id="exampleModalLabel">Search A Keyword..</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+							aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="popup-form-group">
+							<input type="text" class="popup-form-control" autocomplete="off" required autofocus
+								id="recipient-name" />
+							<button type="submit" class="searchbar-btn"><i class="fa fa-search"></i>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// #headerSearchBar //-->
+	<!--// Scripts //-->
+	<script src="vendor/js/jquery.min.js"></script>
+	<script src="vendor/js/images.loaded.min.js"></script>
+	<script src="vendor/js/magnific.popup.min.js"></script>
+	<script src="vendor/js/popper.min.js"></script>
+	<script src="vendor/js/bootstrap.min.js"></script>
+	<script src="vendor/js/wow.min.js"></script>
+	<script src="vendor/js/waypoint.min.js"></script>
+	<script src="vendor/js/counter.up.min.js"></script>
+	<script src="vendor/js/jquery.easing.min.js"></script>
+	<script src="vendor/js/scrollit.min.js"></script>
+	<script src="vendor/js/owl.carousel.min.js"></script>
+	<script src="vendor/js/isotope.min.js"></script>
+	<script src="vendor/js/fancybox.min.js"></script>
+	<!--// Main Js //-->
+	<script src="js/main.js"></script>
+
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+	<script>
+		const swiper = new Swiper('.swiper', {
+
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			},
+			// Optional parameters
+
+			loop: true,
+
+			// If we need pagination
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+
+			// Navigation arrows
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+
+			// And if we need scrollbar
+
+		});
+	</script>
+</body>
+
+</html>
